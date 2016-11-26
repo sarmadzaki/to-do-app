@@ -1,0 +1,27 @@
+
+
+body {
+	background: url(bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	
+}
+h1{
+	border-bottom-style: solid;
+	border-bottom: 2px solid red;
+	border-width: 5px; 
+}
+input {
+	height: 50px;
+}
+
+ul {
+
+	list-style-image: url(img/task.png);
+
+	font-size: 30px;
+}
+ul li {
+	background-color: darkgrey;
+	border-radius: 5px;
+	padding-left: 4px;
+}

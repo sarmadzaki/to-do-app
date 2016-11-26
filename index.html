@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo App using JS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<script type="text/javascript">
+		
+			function doRemove() {
+				// body...
+				$("li").remove();
+			}
+
+
+	</script>
+	<div class="container jumbotron">
+				<div class="center-block">
+					<h1>Todo App Using Javscript</h1>
+				</div>
+
+		<form class="todoform">
+			<input class="form-control" type="text" name="todo" id="todoInput">
+			<br>
+			<button class="btn btn-outline right" type="button" onClick="todoList()"><img src="img/add-icon-png-2460.png" height="25px"></button>
+			<button class="btn btn-outline right" type="button" onClick="doRemove()"><img src="img/Waste Filled-50.png" height="25px"></button>
+			
+		</form>
+		
+		<ul id="todoList list-group">
+			
+		</ul>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="app.js"></script>
+</body>
+</html>
